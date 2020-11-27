@@ -18,7 +18,8 @@ After clicking on it, the console with show something like this -
 <img src = "https://github.com/namzop/discord-token-login/blob/main/assets/console%20img.jpg?raw=true">
 
 Now you have to paste this exactly as it's given - 
-``` function login(token) {
+```
+function login(token) {
 setInterval(() => {
 document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
 }, 50);
@@ -26,6 +27,7 @@ setTimeout(() => {
 location.reload();
 }, 2500);
 }```
+```
 And Press Enter
 
 If you don't paste it correctly, then the console will give an error. 
